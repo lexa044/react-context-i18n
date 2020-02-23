@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-context-i18n
+
+Simple Reactjs starter template bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using a decoupled, maintainable architecture following code splitting guidelines. [react-i18next](https://react.i18next.com/) powers the translation part for multi-lingual support.
+
+## Changes list
+
+- beta 0.0.1 *[February 23, 2020]*
+
+## Frameworks and Libraries
+- [Create React App](https://github.com/facebook/create-react-app);
+- [react-i18next](https://react.i18next.com/) (for translation);
+- [context](https://en.reactjs.org/docs/context.html) (for theming);
+
+![Screenshot](https://github.com/lexa044/react-context-i18n/blob/master/react-context-i18n.PNG)
 
 ## Available Scripts
 

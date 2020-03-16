@@ -33,7 +33,12 @@ const SignupForm = ({ setRedirect, setRedirectUrl, hasLabel }) => {
     <Form onSubmit={handleSubmit}>
       <FormGroup>
         {hasLabel && <Label>Name</Label>}
-        <Input placeholder={!hasLabel ? 'Name' : ''} value={name} onChange={({ target }) => setName(target.value)} />
+        <Input 
+        placeholder={!hasLabel ? 'Name' : ''} value={name} 
+        onChange={({ target }) => setName(target.value)} 
+        required
+        autoComplete="new-name"
+        />
       </FormGroup>
       <FormGroup>
         {hasLabel && <Label>Email address</Label>}
@@ -43,7 +48,7 @@ const SignupForm = ({ setRedirect, setRedirectUrl, hasLabel }) => {
           onChange={({ target }) => setEmail(target.value)}
           type="email"
           required
-          autoComplete="username"
+          autoComplete="new-username"
         />
       </FormGroup>
       <div className="form-row">
